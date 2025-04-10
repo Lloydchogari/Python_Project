@@ -116,8 +116,8 @@ for _, row in df.iterrows():
 print("Payslips generated successfully!")
 
 # Email Setup
-SENDER_EMAIL = "lloyddonnel@gmail.com"
-SENDER_PASSWORD = "ssfdwizzdgropeac"  # Use a valid Gmail App Password (Consider using environment variables for better security)
+SENDER_EMAIL = ""
+SENDER_PASSWORD = ""  # Use a valid Gmail App Password (Consider using environment variables for better security)
 
 try:
     yag = yagmail.SMTP(SENDER_EMAIL, SENDER_PASSWORD)
